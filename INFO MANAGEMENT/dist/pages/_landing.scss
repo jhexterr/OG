@@ -1,0 +1,33 @@
+.banner {
+    background-image: url("/img/pexels-photo-6528155.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    &_text {
+        color: $clr-light;
+        margin-top: 30rem;
+        margin-right: 30rem;
+        line-height: 2;
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            font-size: 3rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            ;
+        }
+    }
+    
+    &_button {
+            display: inline-block;
+            a{
+                color: $clr-light;
+                background: red;
+                border-radius: 30px;
+                padding: 1rem 4rem;
+                font-size: 2rem;
+            }
+    }
+}

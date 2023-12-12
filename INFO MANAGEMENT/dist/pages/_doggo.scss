@@ -1,0 +1,31 @@
+.doggo{
+    background-image: url("/img/download.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    &-text{
+        color: $clr-dark;
+        margin-top: 30rem;
+        margin-right: 30rem;
+        line-height: 2;
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            font-size: 3rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+    &-button{
+        display: inline-block;
+        a{
+            color: $clr-light;
+            background: red;
+            border-radius: 30px;
+            padding: 1rem 4rem;
+            font-size: 2rem;
+        }
+    }
+}

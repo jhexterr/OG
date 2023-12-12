@@ -1,0 +1,26 @@
+.header {
+    position: absolute;
+    width: 100%;
+    &_nav {
+        ul {
+            display: flex;
+            gap: 5rem;
+            li {
+                
+                a {
+                    text-decoration: none;     
+                    font-size: 2rem;              
+                }
+            }
+        }                
+    }
+    &_wrapper { 
+        @include centerAll;
+    }
+    &_logo {
+        margin-right: 10rem;
+        img {
+            width: 18rem;   
+        }
+    }
+}

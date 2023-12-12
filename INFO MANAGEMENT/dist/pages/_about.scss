@@ -1,0 +1,67 @@
+.service{
+    border-bottom: 6rem solid #A57A5A;
+    &-service{
+        display: flex;
+        gap: 5rem;
+        text-align: center;
+        p{
+            text-align: justify;
+            margin-top: 1rem;
+            text-indent: 2rem;
+        }
+        .grooming{
+            border: 1px solid $clr-dark;
+            border-radius: 10px;
+            padding: 1rem 6rem;
+            align-items: center;
+            i{
+                font-size: 1.7rem;
+                color: #A57A5A;
+            }
+        }
+        .veterinary{
+            border: 1px solid $clr-dark;
+            border-radius: 10px;
+            padding: 1rem 6rem;
+            align-items: center;
+            i{
+                font-size: 1.7rem;
+                color: #A57A5A;
+            }
+        }
+        .fun-act{
+            border: 1px solid $clr-dark;
+            border-radius: 10px;
+            padding: 1rem 6rem;
+            align-items: center;
+            i{
+                font-size: 1.7rem;
+                color: #A57A5A;
+            }
+        }
+    }
+    &-doggie{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        margin-top: 16rem;
+        &-text{
+            h2{
+                color: #A57A5A;
+                font-size: 3rem;
+                text-indent: 2rem;
+                font-style: italic;
+            }
+            h1{
+                font-size: 3rem;
+                text-indent: 3rem;
+                font-style: italic;
+                margin-top: 1rem;
+            }
+            p{
+                font-size: 1.8rem;
+                text-align: justify;
+                margin-top: 3rem;
+            }
+        }
+    }
+}
